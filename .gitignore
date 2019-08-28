@@ -3,3 +3,12 @@ venv
 
 # IDE
 .idea
+
+# data
+datasets/**/*__processed.txt
+
+# misc
+TODO.txt
+
+# python
+**.pyc

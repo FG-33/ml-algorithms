@@ -1,0 +1,48 @@
+#  x02.txt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Mathematical Algorithms for Linear Regression,
+#    Academic Press, 1991, page 304,
+#    ISBN 0-12-656460-4.
+#
+#    S Weisberg,
+#    Applied Linear Regression,
+#    Wiley, 1980, page 218.
+#
+#  Discussion:
+#
+#    For 12 young patients, catheters were fed from a principal vein
+#    into the heart.  The necessary catheter length was measured.
+#    The height and weight of the patients was noted.
+#
+#    There are 12 rows of data.  The data columns include:
+#
+#      I,  the index;
+#      A1, the height;
+#      A2, the weight;
+#      B,  the catheter length.
+#
+#    We seek a model of the form:
+#
+#      B = A1 * X1 + A2 * X2.
+#
+4 columns
+12 rows
+Index
+Patient Height (inches)
+Patient Weight (pounds)
+Catheter Length (centimeters)
+ 1  42.8  40.0  37
+ 2  63.5  93.5  50
+ 3  37.5  35.5  34
+ 4  39.5  30.0  36
+ 5  45.5  52.0  43
+ 6  38.5  17.0  28
+ 7  43.0  38.5  37
+ 8  22.5   8.5  20
+ 9  37.0  33.0  34
+10  23.5   9.5  30
+11  33.0  21.0  38
+12  58.0  79.0  47
