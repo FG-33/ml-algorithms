@@ -1,5 +1,6 @@
 import unittest
-from util.load_data import load_data
+
+from linear_regression.util.load_data import load_data
 
 
 class MyTestCase(unittest.TestCase):

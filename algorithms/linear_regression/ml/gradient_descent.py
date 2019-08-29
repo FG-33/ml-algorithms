@@ -1,5 +1,6 @@
 from numpy import matmul, transpose, random
-from ml.compute_cost import compute_cost
+
+from linear_regression.ml.compute_cost import compute_cost
 
 
 def gradient_descent(x, y, theta=None, alpha=0.01, num_iters=100):

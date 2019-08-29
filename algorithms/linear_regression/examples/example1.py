@@ -1,9 +1,10 @@
 import numpy as np
-from util.load_data import load_data
-from ml.gradient_descent import gradient_descent
-from util.plot import plot
-from ml.predict import predict
-from const import BODY_BRAIN_PATH
+
+from linear_regression.const import BODY_BRAIN_PATH
+from linear_regression.ml.gradient_descent import gradient_descent
+from linear_regression.ml.predict import predict
+from linear_regression.util.load_data import load_data
+from linear_regression.util.plot import plot
 
 # load data
 x, y = load_data(BODY_BRAIN_PATH())

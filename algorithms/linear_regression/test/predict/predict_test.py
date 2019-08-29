@@ -1,6 +1,7 @@
 import unittest
+
+from linear_regression.ml.predict import predict
 from numpy import array
-from ml.predict import predict
 
 
 class MyTestCase(unittest.TestCase):

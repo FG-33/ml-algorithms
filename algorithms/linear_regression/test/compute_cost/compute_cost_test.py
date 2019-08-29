@@ -1,6 +1,7 @@
 import unittest
+
+from linear_regression.ml.compute_cost import compute_cost
 from numpy import array
-from ml.compute_cost import compute_cost
 
 
 class MyTestCase(unittest.TestCase):
