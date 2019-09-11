@@ -1,4 +1,4 @@
-from numpy import matmul
+import numpy as np
 
 
 def predict(x, theta):
@@ -8,4 +8,4 @@ def predict(x, theta):
     :param theta: linear regression parameters learned
     :return predicted_result: predicted output for given input data
     """
-    return matmul(x, theta)
+    return np.matmul(x, theta)

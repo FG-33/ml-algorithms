@@ -1,4 +1,4 @@
-from numpy import matmul, power
+import numpy as np
 
 
 def compute_cost(x, y, theta):
@@ -10,4 +10,4 @@ def compute_cost(x, y, theta):
     :return predicted_result: squared error
     """
     m = y.shape[0]
-    return 1/(2 * m) * sum(power(matmul(x, theta) - y, 2))
+    return 1/(2 * m) * sum(np.power(np.matmul(x, theta) - y, 2))

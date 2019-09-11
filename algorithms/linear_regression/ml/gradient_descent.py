@@ -1,5 +1,4 @@
-from numpy import matmul, transpose, random
-
+import numpy as np
 from linear_regression.ml.compute_cost import compute_cost
 
 
@@ -17,11 +16,11 @@ def gradient_descent(x, y, theta=None, alpha=0.01, num_iters=100):
     """
     m, n = x.shape
     if theta is None:
-        theta = random.rand(n, 1)
+        theta = np.random.rand(n, 1)
 
     costs = []
     for i in range(num_iters):
-        theta -= alpha * (1 / m) * matmul(transpose(x), (matmul(x, theta) - y))
+        theta -= alpha * (1 / m) * np.matmul(np.transpose(x), (np.matmul(x, theta) - y))
         costs.append(compute_cost(x, y, theta))
 
     return theta, costs

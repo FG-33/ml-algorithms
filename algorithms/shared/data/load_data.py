@@ -1,4 +1,4 @@
-from numpy import array, expand_dims
+import numpy as np
 from pandas import read_csv
 
 
@@ -12,10 +12,10 @@ def load_data(path):
     data = read_csv(path, header=None)
     input_cols = data.columns[0:-1]
     output_col = data.columns[-1]
-    x, y = array(data[input_cols]), array(data[output_col])
+    x, y = np.array(data[input_cols]), np.array(data[output_col])
 
     if len(x.shape) == 1:
-        x = expand_dims(x, axis=1)
-    y = expand_dims(y, axis=1)
+        x = np.expand_dims(x, axis=1)
+    y = np.expand_dims(y, axis=1)
 
     return x, y
