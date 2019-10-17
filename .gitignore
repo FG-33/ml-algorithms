@@ -8,7 +8,7 @@ venv
 datasets/**/*__processed.txt
 
 # misc
-TODO.txt
+# TODO.txt
 
 # python
 **.pyc

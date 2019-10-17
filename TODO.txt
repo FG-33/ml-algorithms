@@ -1,0 +1,6 @@
+9. get another data set and train -> second example (https://www.kaggle.com/c/titanic/data, make kaggle account)
+10. implement stochastic gradient descent and batch gradient descent
+11. write something like fminc in octave
+12. logistic regression with multiple labels (something that can be trained/evaluated with a single function)
+13. tests -> mal gucken
+14. neural networks -> hehe
