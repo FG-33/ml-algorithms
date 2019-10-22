@@ -24,7 +24,7 @@ def calc_precision_recall(y, prediction):
     precision = tp / (tp + fp + 0.000000000001)
     recall = tp / (tp + fn + 0.000000000001)
 
-    print("{}% Recall".format(round(recall[0] * 100, 1)))
-    print("{}% Precision".format(round(precision[0] * 100, 1)))
+    # print("{}% Recall".format(round(recall[0] * 100, 1)))
+    # print("{}% Precision".format(round(precision[0] * 100, 1)))
 
     return precision[0], recall[0]
