@@ -6,9 +6,13 @@ venv
 
 # data
 datasets/**/*__processed.txt
+notebooks/**/*.names
+notebooks/**/*.data
 
 # misc
-# TODO.txt
+
+# notebooks
+notebooks/logistic_regression/mushrooms/.ipynb_checkpoints
 
 # python
 **.pyc
