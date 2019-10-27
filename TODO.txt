@@ -1,4 +1,6 @@
-1. create a second notebook that uses my implementations of logistic regression
-...
-x. create another notebook that uses my implementations of linear regression
-x+1. create another notebook that uses sklearn for linear regression
+# Programming
+2. create linear regression notebook
+3. remove prior linear regression code/approach
+
+# Theory
+1. Add logistic regression explanaitions to gradient_desc notebook
