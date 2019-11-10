@@ -1,6 +1,7 @@
 # Programming
-2. create linear regression notebook
-3. remove prior linear regression code/approach
-
-# Theory
-1. Add logistic regression explanaitions to gradient_desc notebook
+1. [check] create linear regression notebook (rename to simple linear regression?)
+2. re-read linear regression notebook
+3. create multi linear regression notebook
+4. create polynomial regression notebook
+5. create logistic regression notebook
+6. create support-vector machine notebook
