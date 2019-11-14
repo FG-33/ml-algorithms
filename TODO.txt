@@ -1,6 +1,6 @@
 # Programming
 1. [check] create linear regression notebook (rename to simple linear regression?)
-2. re-read linear regression notebook
+2. [check] re-read linear regression notebook
 3. create multi linear regression notebook
 4. create polynomial regression notebook
 5. create logistic regression notebook
