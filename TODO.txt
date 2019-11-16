@@ -1,8 +1,0 @@
-# Programming
-1. [check] create linear regression notebook (rename to simple linear regression?)
-2. [check] re-read linear regression notebook
-3. [check] create multi linear regression notebook
-3.5 in "Regression Analysis" in linear regression one variable divide into plotting theta + costs and the rest (different cells)
-4. create polynomial regression notebook
-5. create logistic regression notebook
-6. create support-vector machine notebook
