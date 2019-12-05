@@ -8,6 +8,7 @@ venv
 datasets/**/*__processed.txt
 notebooks/**/*.names
 notebooks/**/*.data
+regression_analysis/data
 
 # misc
 
