@@ -9,7 +9,7 @@ datasets/**/*__processed.txt
 notebooks/**/*.names
 notebooks/**/*.data
 regression_analysis/data
-
+neural_networks/data
 # misc
 
 # notebooks
